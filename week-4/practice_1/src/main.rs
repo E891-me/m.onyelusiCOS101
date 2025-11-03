@@ -3,7 +3,7 @@
  use std::io;
 
  fn main() {
-    println!("\nStudent Information Management Sysytem");
+    println!("\nStudent Information Management System");
 
     //input name
     println!("\nPlease Enter your name.");
