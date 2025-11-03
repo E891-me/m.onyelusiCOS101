@@ -1,25 +1,25 @@
 fn main() {
-   let A:i32 = 10;
-   let B:i32 = 20;
+   let a:i32 = 10;
+   let b:i32 = 20;
 
-   println!("Value of A:{}", A);
-   println!("Value of B: {}", B);
+   println!("Value of a:{}", a);
+   println!("Value of b: {}", b);
 
-   let mut res = A>B;
-   println!("A greater than B: {}", res);
+   let mut res = a>b;
+   println!("a greater than b: {}", res);
 
-   res = A<B;
-   println!("A lesser than B: {}", res);
+   res = a<b;
+   println!("a lesser than b: {}", res);
 
-   res = A>=B;
-   println!("A greater than or equal to B: {}", res);
+   res = a>=b;
+   println!("a greater than or equal to b: {}", res);
 
-   res = A<=B;
-   println!("A lesser than or equal to B: {}", res);
+   res = a<=b;
+   println!("a lesser than or equal to b: {}", res);
 
-   res = A==B;
-   println!("A is equal to B: {}", res);
+   res = a==b;
+   println!("a is equal to b: {}", res);
 
-   res = A!=B;
-   println!("A is not equal to B: {}", res);
+   res = a!=b;
+   println!("a is not equal to b: {}", res);
 }

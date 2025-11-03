@@ -1,9 +1,9 @@
 fn main() {
-    let name1 = "Ayo mide Adesokan";
+    let name1 = "Esther Onyelusi";
     println!("My name is {}", name1);
 
     //find and replace
-    let name2 = name1.replace("Ayomide","Adebare");
+    let name2 = name1.replace("Esther","Mesoma");
     println!("You can also call me {}", name2);
     let faculty = "Faculty of Science and Technology";
 
