@@ -1,5 +1,11 @@
 use std::io;
 
+// 1. Define a Struct (A Compound Data Type) to hold developer details
+struct Developer {
+    name: String,
+    years_of_experience: u32,
+}
+
 fn main() {
     // 2. Define a Vector (Another Compound Data Type) to store the list of developers
     let mut candidates: Vec<Developer> = Vec::new();
